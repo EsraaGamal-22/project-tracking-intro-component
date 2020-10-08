@@ -240,7 +240,7 @@ header{
         flex-direction: row-reverse;
     }
     .img-side{
-        width:50%;
+        width:48%;
      
     }
     .img-side img{
@@ -249,7 +249,7 @@ header{
     }
     .content-side{
         padding:1em 3em;
-        width:57%;
+        width:58%;
     }
     .plan-para{
         width:55%;
