@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Barlow&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;700&display=swap" rel="stylesheet">
+  <script src="main.js"></script>
+  <title>Frontend Mentor | Project tracking intro component</title>
+</head>
+<body>
+  <div class="colored-back"></div>
+  <header class="container row">
+    <div class="logg"><img src="images/logo.svg" alt="logo-img"></div>
+    <div class="menu-items" onclick="showMenu(this)">
+      <div class="bar1"></div>
+      <div class="bar2"></div>
+      <div class="bar3"></div>
+    </div>
+    <nav class="nav-max" id="nav-menuu">
+      <ul class="nav-list primary--list">
+      <li class="nav-item"><a class="nav-link" href="#">Product</a></li>  
+      <li class="nav-item"><a class="nav-link" href="#">Features</a></li>  
+      <li class="nav-item"><a class="nav-link" href="#"> Pricing</a></li> 
+      <li class="nav-item"><div class="row-diff"></div></div></li>  
+      <li class="nav-item"><a class="nav-link login-link" href="#">Login</a></li>  
+      </ul>
+    </nav>
+  </header>
+  <section class="intro-sec">
+    <div class="container row-1">
+      <div class="img-side">
+        <img src="images/illustration-devices.svg" alt="img-devices">
+      </div>
+      <div class="content-side">
+        <div class="details-side">
+          <div class="colored-para">
+            <p>New</p>
+          </div>
+          <p class="diff-para">Monograph Dashboard</p>
+        </div>
+        <h1> Powerful insights into your team</h1>
+        <p class="plan-para">Project planning and time tracking for agile teams</p>
+        <div class="details-side">
+          <button> Schedule a demo</button>
+          <p class="diff-para" >to see a preview</p>
+
+        </div>
+       
+  
+      </div>
+
+    </div>
+  </section>
+</body>
+</html>
