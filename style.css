@@ -8,6 +8,7 @@ body{
     position: relative;
     margin:0;
     padding:0;
+    overflow-x: hidden;
 }
 h1,a,button{
     font-family: 'Barlow Condensed', sans-serif;
@@ -125,11 +126,9 @@ header{
 }
 .img-side{
     width:100%;
-    overflow: hidden; 
 }
 .img-side img{
-    width: 150%;
-    margin: 0 0 0 -20px;
+    width: 140%;
     position: relative;
 }
 .content-side{
@@ -192,7 +191,7 @@ header{
         left: 300px;
     }
     .img-side img {
-        width:130%;
+        width:110%;
     }
 
 }
@@ -240,17 +239,16 @@ header{
         flex-direction: row-reverse;
     }
     .img-side{
-        width:48%;
-     
+        width:43%;
     }
     .img-side img{
-        width:160%;
+        width:165%;
         margin:4em 0 0 0;
     }
     .content-side{
         padding:1em 3em;
-        width:58%;
-    }
+        width:55%;
+        }
     .plan-para{
         width:55%;
     }
